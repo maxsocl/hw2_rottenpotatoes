@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     if params[:col] == 'title'
       order = "title"
       @title_header = 'hilite'
-    elsif params[:col] == 'release_date'
+    elsif params[:col] == 'date'
       order = "release_date"
       @date_header = 'hilite'
     end
